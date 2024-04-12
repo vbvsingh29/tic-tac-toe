@@ -3,6 +3,7 @@
 A classic Tic Tac Toe game built using TypeScript, React, and Parcel.
 
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
@@ -35,12 +36,12 @@ Tic Tac Toe is a timeless two-player strategy game where players take turns plac
    git clone https://github.com/vbvsingh29/tic-tac-toe.git
    ```
 2. Navigate to your project:
-   ```bash 
+   ```bash
    cd tic-tac-toe
    ```
 3. Install Dependencies:
    ```bash
-   pnpm install 
+   pnpm install
    ```
 
 ## Usage
@@ -51,13 +52,13 @@ Tic Tac Toe is a timeless two-player strategy game where players take turns plac
    ```
 2. Open your web browser and navigate to http://localhost:1234 to access the Tic Tac Toe game.
 
-
 ## Disclaimer
 
 For learning purposes, I have used `pnpm` as the package manager for this project, which has resulted in a `pnpm-lock.yaml` file. If you want to install the dependencies using `yarn` or `npm`, you can still do so, but the installation process may take longer.
 
-When using `yarn` or `npm`, there is only a `package.json` file present, and no lock file. This means that the package manager needs to resolve the dependency tree and generate a new lockfile from scratch, which can be a slower process.
+When using `yarn` or `npm` with this repo, there is only a `package.json` file present, and no lock file for `yarn` or `npm`. This means that the package manager needs to resolve the dependency tree and generate a new lockfile from scratch, which can be a slower process.
 
 Additionally, there is a potential risk of dependency version mismatch since the lock file is not present. This could lead to compatibility issues or unexpected behavior in the project.
 
 **Happy Coding!**
+**vbv out**
