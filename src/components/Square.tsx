@@ -11,7 +11,7 @@ function Square({
 }) {
   if (!value) {
     return (
-      <button className="sqaure" onClick={onClick} disabled={Boolean(winner)} />
+      <button className="square" onClick={onClick} disabled={Boolean(winner)} />
     );
   }
   return (
